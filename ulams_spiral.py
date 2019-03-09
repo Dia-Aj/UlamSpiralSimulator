@@ -2,15 +2,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
-def is_prime(num):
-	def check_number():
-		for i in range(num)[2:]:
-			if num % i == 0:
-				return False
-		return True
-	return check_number()
+from sympy import isprime as is_prime
 
 class Spiral_Display():
 
