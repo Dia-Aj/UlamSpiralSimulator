@@ -50,7 +50,7 @@ def main():
 	 M.normal_display()
 
 	 sns.heatmap(M.matrix[1:, 1:], cmap='magma',yticklabels= False, 
-	 											xticklabels = False, cbar = False)
+	 						xticklabels = False, cbar = False)
 	 
 	 #plt.show()
 	 plt.savefig(f'figures/{M.cols}Spiral.png', dpi= 128)
